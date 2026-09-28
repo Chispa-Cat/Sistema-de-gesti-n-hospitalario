@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Hospital IMSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imss.png" alt="Logo IMSS">
+            <h1 class="vip-text">VIP</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="pacientes.html">Pacientes</a></li>
+                <li><a href="medicos.html">Médicos</a></li>
+                <li><a href="area.html">Areas</a></li>
+                <li><a href="historial.html">Historial Médico</a></li>
+                <li><a href="camas.html">Camas</a></li>
+                <li><a href="equipos.html">Equipos Médicos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about-imss">
+        <div class="container grid">
+            <div class="imss-info">
+                <img src="imss1.png" alt="IMSS Image" class="imss-image">
+                <div class="info-text">
+                    <h1>Bienvenido al IMSS</h1>
+                    <p>Somos una institución comprometida con la salud y el bienestar de nuestros pacientes.</p>
+                    <p>El Instituto Mexicano del Seguro Social (IMSS) es una institución de seguridad social que brinda servicios de salud y protección social a los trabajadores y sus familias en México.</p>
+                    <p>Proporcionamos una amplia gama de servicios médicos, desde atención primaria hasta tratamientos especializados. Nuestro objetivo es asegurar el bienestar de nuestros pacientes a través de un servicio de calidad y humano.</p>
+                    <button class="learn-more">Conoce más</button>
+                </div>
+            </div>
+            <aside class="advertisement">
+                <h2>Noticias y Actualizaciones</h2>
+                <p>Mantente al día con las últimas noticias y actualizaciones del IMSS.</p>
+                <ul>
+                    <li><a href="#">Nueva ala de pediatría inaugurada</a></li>
+                    <li><a href="#">Programa de vacunación 2024</a></li>
+                    <li><a href="#">Horarios extendidos en atención primaria</a></li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Hospital IMSS - Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style type="text/css">
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3E785A;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.vip-text {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: gold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: gold;
+    color: #004d00;
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.imss-info {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.imss-image {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.info-text h1 {
+    color: #004d00;
+}
+
+.info-text p {
+    margin: 10px 0;
+}
+
+.learn-more {
+    background-color: #004d00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: gold;
+    color: #004d00;
+}
+
+.advertisement {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.advertisement h2 {
+    color: #004d00;
+}
+
+.advertisement ul {
+    list-style: none;
+    padding: 0;
+}
+
+.advertisement ul li {
+    margin-bottom: 10px;
+}
+
+.advertisement ul li a {
+    color: #004d00;
+    text-decoration: none;
+}
+
+.advertisement ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #3E785A;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: gold;
+}
+</style>
